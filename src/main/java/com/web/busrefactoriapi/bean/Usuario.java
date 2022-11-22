@@ -1,12 +1,10 @@
 package com.web.busrefactoriapi.bean;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
-@Entity()
+import javax.persistence.*;
+
+@Entity
+@Table
 public class Usuario {
     
     @Id

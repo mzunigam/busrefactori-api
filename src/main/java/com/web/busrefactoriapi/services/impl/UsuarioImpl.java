@@ -18,7 +18,6 @@ public class UsuarioImpl  implements UsuarioServices {
     @Override
     public Optional<Usuario> findByUsername(String username) {
         Usuario usuario =   usuarioRepository.findByUsername(username);
-
         return Optional.of(usuario);
     }
 
